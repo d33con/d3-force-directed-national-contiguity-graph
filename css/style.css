@@ -4,12 +4,17 @@ body {
 }
 
 h1 {
+  position: absolute;
   text-align: center;
-  margin: 20px auto;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 #container {
-  margin: 10px auto;
+  margin: 5px auto;
+  z-index: 2;
 }
 
 .link {
